@@ -11,6 +11,49 @@
 		FAC61F8728965FAB0067D488 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61F8628965FAB0067D488 /* ContentView.swift */; };
 		FAC61F8928965FAE0067D488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC61F8828965FAE0067D488 /* Assets.xcassets */; };
 		FAC61F8C28965FAE0067D488 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC61F8B28965FAE0067D488 /* Preview Assets.xcassets */; };
+		FAC61F97289660F70067D488 /* RectangleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61F96289660F70067D488 /* RectangleImage.swift */; };
+		FAC61F992896612C0067D488 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61F982896612C0067D488 /* InfoView.swift */; };
+		FAC61F9B289661A60067D488 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61F9A289661A60067D488 /* MovieList.swift */; };
+		FAC61F9D289661CD0067D488 /* MovieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61F9C289661CD0067D488 /* MovieCard.swift */; };
+		FAC61F9F289662000067D488 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61F9E289662000067D488 /* HomeView.swift */; };
+		FAC61FA1289662430067D488 /* MovieDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61FA0289662430067D488 /* MovieDetailPage.swift */; };
+		FAC61FA32896626E0067D488 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61FA22896626E0067D488 /* Movie.swift */; };
+		FAC61FA52896628D0067D488 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61FA42896628D0067D488 /* Category.swift */; };
+		FAC61FA7289662BB0067D488 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61FA6289662BB0067D488 /* ColorConstants.swift */; };
+		FAC61FA9289662D50067D488 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61FA8289662D50067D488 /* ModelData.swift */; };
+		FAC61FB5289663730067D488 /* love-o2o.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FAB289663730067D488 /* love-o2o.mp4 */; };
+		FAC61FB6289663730067D488 /* boss-and-me.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FAC289663730067D488 /* boss-and-me.mp4 */; };
+		FAC61FB7289663730067D488 /* you-are-my-glory.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FAD289663730067D488 /* you-are-my-glory.mp4 */; };
+		FAC61FB8289663730067D488 /* my-sunshine.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FAE289663730067D488 /* my-sunshine.mp4 */; };
+		FAC61FB9289663730067D488 /* ashes-of-love.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FAF289663730067D488 /* ashes-of-love.mp4 */; };
+		FAC61FBA289663730067D488 /* love-me-if-you-dare.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FB0289663730067D488 /* love-me-if-you-dare.mp4 */; };
+		FAC61FBB289663730067D488 /* you-are-my-hero.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FB1289663730067D488 /* you-are-my-hero.mp4 */; };
+		FAC61FBC289663730067D488 /* go-go-squid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FB2289663730067D488 /* go-go-squid.mp4 */; };
+		FAC61FBD289663730067D488 /* eternal-love.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FB3289663730067D488 /* eternal-love.mp4 */; };
+		FAC61FBE289663730067D488 /* skate-into-love.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FB4289663730067D488 /* skate-into-love.mp4 */; };
+		FAC61FCA2896637E0067D488 /* prophecy-of-love.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FC02896637E0067D488 /* prophecy-of-love.mp4 */; };
+		FAC61FCB2896637E0067D488 /* my-husband-in-law.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FC12896637E0067D488 /* my-husband-in-law.mp4 */; };
+		FAC61FCC2896637E0067D488 /* man-of-vengeance.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FC22896637E0067D488 /* man-of-vengeance.mp4 */; };
+		FAC61FCD2896637E0067D488 /* once-upon-a-time-in-my-heart.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FC32896637E0067D488 /* once-upon-a-time-in-my-heart.mp4 */; };
+		FAC61FCE2896637E0067D488 /* a-woman-trickery.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FC42896637E0067D488 /* a-woman-trickery.mp4 */; };
+		FAC61FCF2896637E0067D488 /* love-destiny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FC52896637E0067D488 /* love-destiny.mp4 */; };
+		FAC61FD02896637E0067D488 /* pink-sin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FC62896637E0067D488 /* pink-sin.mp4 */; };
+		FAC61FD12896637E0067D488 /* waves-of-life.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FC72896637E0067D488 /* waves-of-life.mp4 */; };
+		FAC61FD22896637E0067D488 /* my-forever-sunshine.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FC82896637E0067D488 /* my-forever-sunshine.mp4 */; };
+		FAC61FD32896637E0067D488 /* glass-mask.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FC92896637E0067D488 /* glass-mask.mp4 */; };
+		FAC61FDF289663890067D488 /* strong-woman-do-bong-soon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FD5289663890067D488 /* strong-woman-do-bong-soon.mp4 */; };
+		FAC61FE0289663890067D488 /* what's-wrong-with-secretary-kim.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FD6289663890067D488 /* what's-wrong-with-secretary-kim.mp4 */; };
+		FAC61FE1289663890067D488 /* crash-landing-on-you.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FD7289663890067D488 /* crash-landing-on-you.mp4 */; };
+		FAC61FE2289663890067D488 /* vincenzo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FD8289663890067D488 /* vincenzo.mp4 */; };
+		FAC61FE3289663890067D488 /* woo-young-woo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FD9289663890067D488 /* woo-young-woo.mp4 */; };
+		FAC61FE4289663890067D488 /* weightlifting-fairy-kim-bok-joo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FDA289663890067D488 /* weightlifting-fairy-kim-bok-joo.mp4 */; };
+		FAC61FE5289663890067D488 /* descendants-of-the-sun.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FDB289663890067D488 /* descendants-of-the-sun.mp4 */; };
+		FAC61FE6289663890067D488 /* our-beloved-summer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FDC289663890067D488 /* our-beloved-summer.mp4 */; };
+		FAC61FE7289663890067D488 /* the-heirs.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FDD289663890067D488 /* the-heirs.mp4 */; };
+		FAC61FE8289663890067D488 /* twenty-five-twenty-one.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FDE289663890067D488 /* twenty-five-twenty-one.mp4 */; };
+		FAC61FEA289663D00067D488 /* tmovies.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FE9289663D00067D488 /* tmovies.json */; };
+		FAC61FEC289663E30067D488 /* kmovies.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FEB289663E30067D488 /* kmovies.json */; };
+		FAC61FEE289663EA0067D488 /* cmovies.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FED289663EA0067D488 /* cmovies.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +62,49 @@
 		FAC61F8628965FAB0067D488 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAC61F8828965FAE0067D488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC61F8B28965FAE0067D488 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAC61F96289660F70067D488 /* RectangleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleImage.swift; sourceTree = "<group>"; };
+		FAC61F982896612C0067D488 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		FAC61F9A289661A60067D488 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		FAC61F9C289661CD0067D488 /* MovieCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCard.swift; sourceTree = "<group>"; };
+		FAC61F9E289662000067D488 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FAC61FA0289662430067D488 /* MovieDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailPage.swift; sourceTree = "<group>"; };
+		FAC61FA22896626E0067D488 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		FAC61FA42896628D0067D488 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		FAC61FA6289662BB0067D488 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		FAC61FA8289662D50067D488 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		FAC61FAB289663730067D488 /* love-o2o.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "love-o2o.mp4"; sourceTree = "<group>"; };
+		FAC61FAC289663730067D488 /* boss-and-me.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "boss-and-me.mp4"; sourceTree = "<group>"; };
+		FAC61FAD289663730067D488 /* you-are-my-glory.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "you-are-my-glory.mp4"; sourceTree = "<group>"; };
+		FAC61FAE289663730067D488 /* my-sunshine.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "my-sunshine.mp4"; sourceTree = "<group>"; };
+		FAC61FAF289663730067D488 /* ashes-of-love.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ashes-of-love.mp4"; sourceTree = "<group>"; };
+		FAC61FB0289663730067D488 /* love-me-if-you-dare.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "love-me-if-you-dare.mp4"; sourceTree = "<group>"; };
+		FAC61FB1289663730067D488 /* you-are-my-hero.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "you-are-my-hero.mp4"; sourceTree = "<group>"; };
+		FAC61FB2289663730067D488 /* go-go-squid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "go-go-squid.mp4"; sourceTree = "<group>"; };
+		FAC61FB3289663730067D488 /* eternal-love.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "eternal-love.mp4"; sourceTree = "<group>"; };
+		FAC61FB4289663730067D488 /* skate-into-love.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "skate-into-love.mp4"; sourceTree = "<group>"; };
+		FAC61FC02896637E0067D488 /* prophecy-of-love.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "prophecy-of-love.mp4"; sourceTree = "<group>"; };
+		FAC61FC12896637E0067D488 /* my-husband-in-law.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "my-husband-in-law.mp4"; sourceTree = "<group>"; };
+		FAC61FC22896637E0067D488 /* man-of-vengeance.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "man-of-vengeance.mp4"; sourceTree = "<group>"; };
+		FAC61FC32896637E0067D488 /* once-upon-a-time-in-my-heart.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "once-upon-a-time-in-my-heart.mp4"; sourceTree = "<group>"; };
+		FAC61FC42896637E0067D488 /* a-woman-trickery.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-woman-trickery.mp4"; sourceTree = "<group>"; };
+		FAC61FC52896637E0067D488 /* love-destiny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "love-destiny.mp4"; sourceTree = "<group>"; };
+		FAC61FC62896637E0067D488 /* pink-sin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pink-sin.mp4"; sourceTree = "<group>"; };
+		FAC61FC72896637E0067D488 /* waves-of-life.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "waves-of-life.mp4"; sourceTree = "<group>"; };
+		FAC61FC82896637E0067D488 /* my-forever-sunshine.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "my-forever-sunshine.mp4"; sourceTree = "<group>"; };
+		FAC61FC92896637E0067D488 /* glass-mask.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glass-mask.mp4"; sourceTree = "<group>"; };
+		FAC61FD5289663890067D488 /* strong-woman-do-bong-soon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "strong-woman-do-bong-soon.mp4"; sourceTree = "<group>"; };
+		FAC61FD6289663890067D488 /* what's-wrong-with-secretary-kim.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "what's-wrong-with-secretary-kim.mp4"; sourceTree = "<group>"; };
+		FAC61FD7289663890067D488 /* crash-landing-on-you.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crash-landing-on-you.mp4"; sourceTree = "<group>"; };
+		FAC61FD8289663890067D488 /* vincenzo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vincenzo.mp4; sourceTree = "<group>"; };
+		FAC61FD9289663890067D488 /* woo-young-woo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "woo-young-woo.mp4"; sourceTree = "<group>"; };
+		FAC61FDA289663890067D488 /* weightlifting-fairy-kim-bok-joo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "weightlifting-fairy-kim-bok-joo.mp4"; sourceTree = "<group>"; };
+		FAC61FDB289663890067D488 /* descendants-of-the-sun.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "descendants-of-the-sun.mp4"; sourceTree = "<group>"; };
+		FAC61FDC289663890067D488 /* our-beloved-summer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "our-beloved-summer.mp4"; sourceTree = "<group>"; };
+		FAC61FDD289663890067D488 /* the-heirs.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "the-heirs.mp4"; sourceTree = "<group>"; };
+		FAC61FDE289663890067D488 /* twenty-five-twenty-one.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "twenty-five-twenty-one.mp4"; sourceTree = "<group>"; };
+		FAC61FE9289663D00067D488 /* tmovies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tmovies.json; sourceTree = "<group>"; };
+		FAC61FEB289663E30067D488 /* kmovies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kmovies.json; sourceTree = "<group>"; };
+		FAC61FED289663EA0067D488 /* cmovies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cmovies.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +137,11 @@
 		FAC61F8328965FAB0067D488 /* TopDrama */ = {
 			isa = PBXGroup;
 			children = (
+				FAC61FD4289663890067D488 /* k-trailer */,
+				FAC61FBF2896637E0067D488 /* t-trailer */,
+				FAC61FAA289663730067D488 /* c-trailer */,
+				FAC61F93289660C00067D488 /* View */,
+				FAC61F92289660B60067D488 /* Model */,
 				FAC61F8428965FAB0067D488 /* TopDramaApp.swift */,
 				FAC61F8628965FAB0067D488 /* ContentView.swift */,
 				FAC61F8828965FAE0067D488 /* Assets.xcassets */,
@@ -65,6 +156,84 @@
 				FAC61F8B28965FAE0067D488 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAC61F92289660B60067D488 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAC61FED289663EA0067D488 /* cmovies.json */,
+				FAC61FEB289663E30067D488 /* kmovies.json */,
+				FAC61FE9289663D00067D488 /* tmovies.json */,
+				FAC61FA22896626E0067D488 /* Movie.swift */,
+				FAC61FA42896628D0067D488 /* Category.swift */,
+				FAC61FA6289662BB0067D488 /* ColorConstants.swift */,
+				FAC61FA8289662D50067D488 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAC61F93289660C00067D488 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAC61F96289660F70067D488 /* RectangleImage.swift */,
+				FAC61F982896612C0067D488 /* InfoView.swift */,
+				FAC61F9A289661A60067D488 /* MovieList.swift */,
+				FAC61F9C289661CD0067D488 /* MovieCard.swift */,
+				FAC61F9E289662000067D488 /* HomeView.swift */,
+				FAC61FA0289662430067D488 /* MovieDetailPage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAC61FAA289663730067D488 /* c-trailer */ = {
+			isa = PBXGroup;
+			children = (
+				FAC61FAB289663730067D488 /* love-o2o.mp4 */,
+				FAC61FAC289663730067D488 /* boss-and-me.mp4 */,
+				FAC61FAD289663730067D488 /* you-are-my-glory.mp4 */,
+				FAC61FAE289663730067D488 /* my-sunshine.mp4 */,
+				FAC61FAF289663730067D488 /* ashes-of-love.mp4 */,
+				FAC61FB0289663730067D488 /* love-me-if-you-dare.mp4 */,
+				FAC61FB1289663730067D488 /* you-are-my-hero.mp4 */,
+				FAC61FB2289663730067D488 /* go-go-squid.mp4 */,
+				FAC61FB3289663730067D488 /* eternal-love.mp4 */,
+				FAC61FB4289663730067D488 /* skate-into-love.mp4 */,
+			);
+			path = "c-trailer";
+			sourceTree = "<group>";
+		};
+		FAC61FBF2896637E0067D488 /* t-trailer */ = {
+			isa = PBXGroup;
+			children = (
+				FAC61FC02896637E0067D488 /* prophecy-of-love.mp4 */,
+				FAC61FC12896637E0067D488 /* my-husband-in-law.mp4 */,
+				FAC61FC22896637E0067D488 /* man-of-vengeance.mp4 */,
+				FAC61FC32896637E0067D488 /* once-upon-a-time-in-my-heart.mp4 */,
+				FAC61FC42896637E0067D488 /* a-woman-trickery.mp4 */,
+				FAC61FC52896637E0067D488 /* love-destiny.mp4 */,
+				FAC61FC62896637E0067D488 /* pink-sin.mp4 */,
+				FAC61FC72896637E0067D488 /* waves-of-life.mp4 */,
+				FAC61FC82896637E0067D488 /* my-forever-sunshine.mp4 */,
+				FAC61FC92896637E0067D488 /* glass-mask.mp4 */,
+			);
+			path = "t-trailer";
+			sourceTree = "<group>";
+		};
+		FAC61FD4289663890067D488 /* k-trailer */ = {
+			isa = PBXGroup;
+			children = (
+				FAC61FD5289663890067D488 /* strong-woman-do-bong-soon.mp4 */,
+				FAC61FD6289663890067D488 /* what's-wrong-with-secretary-kim.mp4 */,
+				FAC61FD7289663890067D488 /* crash-landing-on-you.mp4 */,
+				FAC61FD8289663890067D488 /* vincenzo.mp4 */,
+				FAC61FD9289663890067D488 /* woo-young-woo.mp4 */,
+				FAC61FDA289663890067D488 /* weightlifting-fairy-kim-bok-joo.mp4 */,
+				FAC61FDB289663890067D488 /* descendants-of-the-sun.mp4 */,
+				FAC61FDC289663890067D488 /* our-beloved-summer.mp4 */,
+				FAC61FDD289663890067D488 /* the-heirs.mp4 */,
+				FAC61FDE289663890067D488 /* twenty-five-twenty-one.mp4 */,
+			);
+			path = "k-trailer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +294,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC61FEE289663EA0067D488 /* cmovies.json in Resources */,
+				FAC61FCE2896637E0067D488 /* a-woman-trickery.mp4 in Resources */,
+				FAC61FCA2896637E0067D488 /* prophecy-of-love.mp4 in Resources */,
+				FAC61FE8289663890067D488 /* twenty-five-twenty-one.mp4 in Resources */,
+				FAC61FCC2896637E0067D488 /* man-of-vengeance.mp4 in Resources */,
+				FAC61FE6289663890067D488 /* our-beloved-summer.mp4 in Resources */,
+				FAC61FEA289663D00067D488 /* tmovies.json in Resources */,
+				FAC61FE4289663890067D488 /* weightlifting-fairy-kim-bok-joo.mp4 in Resources */,
+				FAC61FBE289663730067D488 /* skate-into-love.mp4 in Resources */,
+				FAC61FB6289663730067D488 /* boss-and-me.mp4 in Resources */,
+				FAC61FD22896637E0067D488 /* my-forever-sunshine.mp4 in Resources */,
+				FAC61FD32896637E0067D488 /* glass-mask.mp4 in Resources */,
+				FAC61FD02896637E0067D488 /* pink-sin.mp4 in Resources */,
+				FAC61FE0289663890067D488 /* what's-wrong-with-secretary-kim.mp4 in Resources */,
+				FAC61FE1289663890067D488 /* crash-landing-on-you.mp4 in Resources */,
 				FAC61F8C28965FAE0067D488 /* Preview Assets.xcassets in Resources */,
+				FAC61FE5289663890067D488 /* descendants-of-the-sun.mp4 in Resources */,
+				FAC61FCF2896637E0067D488 /* love-destiny.mp4 in Resources */,
+				FAC61FBC289663730067D488 /* go-go-squid.mp4 in Resources */,
+				FAC61FE2289663890067D488 /* vincenzo.mp4 in Resources */,
+				FAC61FE3289663890067D488 /* woo-young-woo.mp4 in Resources */,
+				FAC61FD12896637E0067D488 /* waves-of-life.mp4 in Resources */,
+				FAC61FCB2896637E0067D488 /* my-husband-in-law.mp4 in Resources */,
+				FAC61FEC289663E30067D488 /* kmovies.json in Resources */,
+				FAC61FDF289663890067D488 /* strong-woman-do-bong-soon.mp4 in Resources */,
+				FAC61FBB289663730067D488 /* you-are-my-hero.mp4 in Resources */,
+				FAC61FBA289663730067D488 /* love-me-if-you-dare.mp4 in Resources */,
+				FAC61FB8289663730067D488 /* my-sunshine.mp4 in Resources */,
+				FAC61FE7289663890067D488 /* the-heirs.mp4 in Resources */,
+				FAC61FCD2896637E0067D488 /* once-upon-a-time-in-my-heart.mp4 in Resources */,
 				FAC61F8928965FAE0067D488 /* Assets.xcassets in Resources */,
+				FAC61FB5289663730067D488 /* love-o2o.mp4 in Resources */,
+				FAC61FB7289663730067D488 /* you-are-my-glory.mp4 in Resources */,
+				FAC61FBD289663730067D488 /* eternal-love.mp4 in Resources */,
+				FAC61FB9289663730067D488 /* ashes-of-love.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +339,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC61FA1289662430067D488 /* MovieDetailPage.swift in Sources */,
+				FAC61FA52896628D0067D488 /* Category.swift in Sources */,
+				FAC61F992896612C0067D488 /* InfoView.swift in Sources */,
+				FAC61FA32896626E0067D488 /* Movie.swift in Sources */,
+				FAC61FA7289662BB0067D488 /* ColorConstants.swift in Sources */,
+				FAC61FA9289662D50067D488 /* ModelData.swift in Sources */,
+				FAC61F9F289662000067D488 /* HomeView.swift in Sources */,
 				FAC61F8728965FAB0067D488 /* ContentView.swift in Sources */,
+				FAC61F9D289661CD0067D488 /* MovieCard.swift in Sources */,
+				FAC61F97289660F70067D488 /* RectangleImage.swift in Sources */,
+				FAC61F9B289661A60067D488 /* MovieList.swift in Sources */,
 				FAC61F8528965FAB0067D488 /* TopDramaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
