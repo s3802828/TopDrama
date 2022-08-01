@@ -10,6 +10,8 @@ import SwiftUI
 struct MovieList: View {
     var category: Category
     var body: some View {
+        ZStack{
+            ColorConstants.lightGrey.ignoresSafeArea(.all, edges: .all)
             ScrollView{
                 let sortedMovies = category.movieList.sorted{
                     $0.rating > $1.rating
@@ -27,6 +29,8 @@ struct MovieList: View {
                     }
                 }
             .navigationTitle("\(category.name) Dramas \(category.symbol)")
+        }
+            
     }
 }
 

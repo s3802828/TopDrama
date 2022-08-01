@@ -13,7 +13,7 @@ struct MovieDetailPage: View {
     @State var player = AVPlayer()
     var body: some View {
         ZStack {
-        ColorConstants.white
+        ColorConstants.lightGrey
             .edgesIgnoringSafeArea(.bottom)
         ScrollView {
             

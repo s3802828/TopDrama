@@ -54,6 +54,8 @@
 		FAC61FEA289663D00067D488 /* tmovies.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FE9289663D00067D488 /* tmovies.json */; };
 		FAC61FEC289663E30067D488 /* kmovies.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FEB289663E30067D488 /* kmovies.json */; };
 		FAC61FEE289663EA0067D488 /* cmovies.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC61FED289663EA0067D488 /* cmovies.json */; };
+		FAC61FF02896708E0067D488 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61FEF2896708E0067D488 /* WelcomeView.swift */; };
+		FAC61FF2289670C10067D488 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC61FF1289670C10067D488 /* GreetingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +107,8 @@
 		FAC61FE9289663D00067D488 /* tmovies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tmovies.json; sourceTree = "<group>"; };
 		FAC61FEB289663E30067D488 /* kmovies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kmovies.json; sourceTree = "<group>"; };
 		FAC61FED289663EA0067D488 /* cmovies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cmovies.json; sourceTree = "<group>"; };
+		FAC61FEF2896708E0067D488 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		FAC61FF1289670C10067D488 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,8 @@
 				FAC61F9C289661CD0067D488 /* MovieCard.swift */,
 				FAC61F9E289662000067D488 /* HomeView.swift */,
 				FAC61FA0289662430067D488 /* MovieDetailPage.swift */,
+				FAC61FEF2896708E0067D488 /* WelcomeView.swift */,
+				FAC61FF1289670C10067D488 /* GreetingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -340,12 +346,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC61FA1289662430067D488 /* MovieDetailPage.swift in Sources */,
+				FAC61FF2289670C10067D488 /* GreetingView.swift in Sources */,
 				FAC61FA52896628D0067D488 /* Category.swift in Sources */,
 				FAC61F992896612C0067D488 /* InfoView.swift in Sources */,
 				FAC61FA32896626E0067D488 /* Movie.swift in Sources */,
 				FAC61FA7289662BB0067D488 /* ColorConstants.swift in Sources */,
 				FAC61FA9289662D50067D488 /* ModelData.swift in Sources */,
 				FAC61F9F289662000067D488 /* HomeView.swift in Sources */,
+				FAC61FF02896708E0067D488 /* WelcomeView.swift in Sources */,
 				FAC61F8728965FAB0067D488 /* ContentView.swift in Sources */,
 				FAC61F9D289661CD0067D488 /* MovieCard.swift in Sources */,
 				FAC61F97289660F70067D488 /* RectangleImage.swift in Sources */,

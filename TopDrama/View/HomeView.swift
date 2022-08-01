@@ -10,14 +10,12 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         NavigationView{
+            ZStack{
+                ColorConstants.lightGrey.ignoresSafeArea(.all, edges: .all)
+            
             ScrollView {
-            Image("app-icon")
-                .resizable()
-                .frame(width: 80, height: 80, alignment: .topLeading)
-                .padding(.vertical, 50)
-                .overlay(Circle().stroke(lineWidth: 4).frame(width: 115, height: 115))
-                .shadow(radius: 8)
-
+            Spacer()
+            Spacer()
             Text("🔥 HOT MOVIES 🔥")
                 .foregroundColor(Color.white)
                 .font(.system(size: 30).bold())
@@ -84,6 +82,7 @@ struct HomeView: View {
             }
             .navigationBarHidden(true)
             .navigationBarTitle(Text("Home"))
+        }
         }
     }
 }
