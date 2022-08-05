@@ -1,9 +1,14 @@
-//
-//  ModelData.swift
-//  TopDrama
-//
-//  Created by Giang Le on 31/07/2022.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2022B
+  Assessment: Assignment 1
+  Author: Le Quynh Giang
+  ID: s3802828
+  Created  date: 31/07/2022
+  Last modified: 06/08/2022
+  Acknowledgement: T.Huynh."SSETContactList/ContactList/Model/ModelData.swift".GitHub.https://github.com/TomHuynhSG/SSETContactList/blob/main/ContactList/Model/ModelData.swift. (accessed Jul. 31, 2022)
+*/
 
 import Foundation
 var kmovies = decodeJsonFromJsonFile(jsonFileName: "kmovies.json")
